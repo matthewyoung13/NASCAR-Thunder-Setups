@@ -1,0 +1,41 @@
+# Every track any setup refers to. `aliases` are other names the track goes by;
+# the importer also uses them to recognise track headings in source text.
+tracks:
+  - { id: atlanta, name: Atlanta Motor Speedway, type: intermediate, location: "Hampton, GA", aliases: [Atlanta] }
+  - { id: bristol, name: Bristol Motor Speedway, type: short, location: "Bristol, TN", aliases: [Bristol] }
+  - { id: california, name: California Speedway, type: intermediate, location: "Fontana, CA", aliases: [California, Fontana] }
+  - { id: charlotte, name: "Lowe's Motor Speedway", type: intermediate, location: "Concord, NC", aliases: [Lowes, Charlotte] }
+  - { id: chicagoland, name: Chicagoland Speedway, type: intermediate, location: "Joliet, IL", aliases: [Chicagoland] }
+  - { id: darlington, name: Darlington Raceway, type: intermediate, location: "Darlington, SC", aliases: [Darlington] }
+  - { id: daytona, name: Daytona International Speedway, type: superspeedway, location: "Daytona Beach, FL", aliases: [Daytona] }
+  - { id: dover, name: Dover International Speedway, type: intermediate, location: "Dover, DE", aliases: [Dover] }
+  - { id: homestead, name: Homestead-Miami Speedway, type: intermediate, location: "Homestead, FL", aliases: [Homestead, "Homestead (2003)"] }
+  - { id: homestead-2002, name: "Homestead-Miami Speedway (2002 layout)", type: intermediate, location: "Homestead, FL", aliases: ["Homestead (2002)"] }
+  - { id: indianapolis, name: Indianapolis Motor Speedway, type: intermediate, location: "Speedway, IN", aliases: [Indianapolis, Indy] }
+  - { id: infineon, name: Infineon Raceway, type: road, location: "Sonoma, CA", aliases: [Infineon, Sears Point] }
+  - { id: kansas, name: Kansas Speedway, type: intermediate, location: "Kansas City, KS", aliases: [Kansas] }
+  - { id: las-vegas, name: Las Vegas Motor Speedway, type: intermediate, location: "Las Vegas, NV", aliases: [Las Vegas] }
+  - { id: martinsville, name: Martinsville Speedway, type: short, location: "Ridgeway, VA", aliases: [Martinsville] }
+  - { id: michigan, name: Michigan International Speedway, type: intermediate, location: "Brooklyn, MI", aliases: [Michigan] }
+  - { id: new-hampshire, name: New Hampshire International Speedway, type: short, location: "Loudon, NH", aliases: [New Hampshire, Loudon] }
+  - { id: rockingham, name: North Carolina Speedway, type: intermediate, location: "Rockingham, NC", aliases: [North Carolina, Rockingham] }
+  - { id: phoenix, name: Phoenix International Raceway, type: short, location: "Avondale, AZ", aliases: [Phoenix] }
+  - { id: pocono, name: Pocono Raceway, type: intermediate, location: "Long Pond, PA", aliases: [Pocono] }
+  - { id: richmond, name: Richmond International Raceway, type: short, location: "Richmond, VA", aliases: [Richmond] }
+  - { id: talladega, name: Talladega Superspeedway, type: superspeedway, location: "Talladega, AL", aliases: [Talladega] }
+  - { id: texas, name: Texas Motor Speedway, type: intermediate, location: "Fort Worth, TX", aliases: [Texas] }
+  - { id: watkins-glen, name: Watkins Glen International, type: road, location: "Watkins Glen, NY", aliases: [Watkins Glen, The Glen] }
+  # Short tracks from the Featherlite Modified tour
+  - { id: irp, name: Indianapolis Raceway Park, type: short, location: "Clermont, IN", aliases: [IRP] }
+  - { id: milwaukee, name: The Milwaukee Mile, type: short, location: "West Allis, WI", aliases: [Milwaukee] }
+  - { id: nazareth, name: Nazareth Speedway, type: short, location: "Nazareth, PA", aliases: [Nazareth] }
+  # Infield road courses (NASCAR Thunder 2003)
+  - { id: daytona-infield, name: Daytona Infield, type: infield, location: "Daytona Beach, FL" }
+  - { id: homestead-infield, name: Homestead-Miami Infield, type: infield, location: "Homestead, FL" }
+  - { id: phoenix-infield, name: Phoenix Infield, type: infield, location: "Avondale, AZ" }
+  - { id: pocono-infield, name: Pocono Infield, type: infield, location: "Long Pond, PA" }
+  # Fictional tracks
+  - { id: red-ball-raceway, name: Red Ball Raceway, type: fantasy }
+  - { id: dodge-raceway, name: Dodge Raceway, type: fantasy }
+  - { id: levi-strauss-speedway, name: Levi Strauss Signature Speedway, type: fantasy }
+  - { id: old-spice-speedway, name: Old Spice High Endurance Speedway, type: fantasy }

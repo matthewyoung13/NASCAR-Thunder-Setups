@@ -1,0 +1,1251 @@
+# thunder-2003 / cup: imported from raw/thunder-2003.txt
+game: "thunder-2003"
+series: "cup"
+setups:
+- track: "atlanta"
+  author: "Daryl"
+  tirePressure: 19
+  frontSprings: 44
+  rearSprings: 60
+  swayBar: "1 in"
+  wedge: -2.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.0
+    - 1.4
+    - 0.97
+  raw: |-
+    Tire Pressure - 19
+    Front Springs - 44%
+    Rear Springs - 60%
+    Sway Bar - 1 In.
+    Wedge: - 2.5
+    Gears:  1.)  3.60  2.) 2.00  3.)  1.40  4.)  0.97  Rear End.) Use default
+    Setup by: Daryl
+- track: "atlanta"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 50
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "1 in"
+  wedge: 3.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 50 degrees
+    Front Sprigns: 100%
+    Rear Springs: 100%
+    Sway Bar: 1 in.
+    Wedge: +3.5
+    Gear Preset: 7
+    Setup by: Warhawk
+- track: "atlanta"
+  author: "Anonymous"
+  tirePressure: 23
+  fenderFlare: 73.5
+  rearSpoiler: 60
+  frontSprings: 60
+  rearSprings: 45
+  swayBar: "3/4 in"
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.4
+    - 1.0
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 23
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 60%
+    Rear Springs: 45%
+    Sway Bar: 3/4:
+    Wedge: +1.0
+    Gears: 1.) 3.60 2.) 1.90 3.) 1.40 4.) 1.00 Rear End.) 3.55
+    Setup by: anonymous...
+- track: "bristol"
+  author: "Anonymous"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 69
+  frontSprings: 50
+  rearSprings: 70
+  swayBar: "3/4 in"
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.8
+    - 1.4
+    rearEnd: 3.65
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 69 degrees
+    Front Springs: 50%
+    Rear Springs: 70%
+    Sway Bar: 3/4 in.
+    Wedge: +1.0
+    Gears: 1.) 3.60 2.) 1.90 3.)1.80 4.)1.40 Rear End.)3.65
+    Setup by: anonymous...
+- track: "bristol"
+  author: "ZebFAN06"
+  tirePressure: 21
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 25
+  rearSprings: 65
+  swayBar: "1/2 in"
+  wedge: 1.0
+  gears:
+    useDefault: true
+  raw: |-
+    Tire Pressure: 21
+    Fender Flare: 75 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 25%
+    Rear Springs: 65%
+    Sway Bar: 1/2 In.
+    Wedge: +1.0
+    Gears: Use default gear selection
+    Setup by: ZebFAN06
+- track: "bristol"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "5/8 in"
+  wedge: 3.0
+  gears:
+    preset: 3
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 degrees
+    Rear Spoiler: 75 in.
+    Front Springs: 100%
+    Rear Springs: 100%
+    Sway Bar: 5/8 in.
+    Wedge: +3.0
+    Gear Preset: 3
+    Setup by: Warhawk
+- track: "california"
+  author: "Anonymous"
+  tirePressure: 29
+  fenderFlare: 73.0
+  rearSpoiler: 60
+  frontSprings: 35
+  rearSprings: 70
+  swayBar: "3/4 in"
+  wedge: 1.5
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.3
+    - 0.99
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 29
+    Fender Flare: 73 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 35%
+    Rear Springs: 70%
+    Sway Bar: 3/4 in.
+    Wedge: +1.5
+    Gears: 1.) 3.60 2.) 1.90 3.) 1.30 4.) 0.99 Rear End.)3.50
+    Setup by: anonymous...
+- track: "california"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.5
+  frontSprings: 90
+  rearSprings: 90
+  swayBar: "1 in"
+  wedge: 2.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15 in.
+    Fender Flare: 73.5 degrees
+    Rear Spoiler: N/A
+    Front Springs: 90%
+    Rear Springs: 90%
+    Sway Bar: 1in.
+    Wedge: +2.5
+    Gear Preset: 7
+    Setup by: Warhawk
+- track: "charlotte"
+  author: "Warhawk"
+  tirePressure: 24
+  fenderFlare: 73.0
+  rearSpoiler: 60
+  frontSprings: 40
+  rearSprings: 53
+  swayBar: "1/8 in"
+  wedge: 0.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 24
+    Fender Flare: 73 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 40%
+    Rear Springs: 53%
+    Sway Bar: 1/8 in.
+    Wedge: 0.0
+    Gear Preset: 6
+    Setup by: Warhawk
+- track: "charlotte"
+  author: "Anonymous"
+  tirePressure: 24
+  fenderFlare: 73.5
+  rearSpoiler: 65
+  frontSprings: 51
+  rearSprings: 63
+  swayBar: "5/8 in"
+  wedge: 1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.03
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 24
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 51%
+    Rear Springs: 63%
+    Sway Bar: 5/8 in.
+    Wedge: +1.5
+    Gears: 1.) 3.60 2.) 2.10 3.) 1.45 4.) 1.03 Rear End.) 3.55
+    Setup by: anonymous...
+- track: "chicagoland"
+  author: "Anonymous"
+  tirePressure: 26
+  fenderFlare: 75.0
+  rearSpoiler: 69
+  frontSprings: 60
+  rearSprings: 60
+  swayBar: "3/4 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.04
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 26
+    Fender Flare: 75 in.
+    Rear Spoiler: 69 degrees
+    Front Springs: 60%
+    Rear Springs: 60%
+    Sway Bar: 3/4 in.
+    Wedge: 0.0
+    Gears: 1.) 3.60 2.) 2.10 3.) 1.45 4.) 1.04 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "chicagoland"
+  author: "Daryl"
+  tirePressure: 28
+  fenderFlare: 75.5
+  rearSpoiler: 71
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.15
+    - 1.6
+    - 1.08
+  raw: |-
+    Tire Pressure: 28
+    Wedge: + 2.0
+    Fender Flare:  75.5 in.
+    Rear Spoiler:  71 degrees
+    Gears:  1.) 3.60  2.) 2.15  3.) 1.60  4.) 1.08
+    Setup by: Daryl
+- track: "chicagoland"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 74.5
+  rearSpoiler: 65
+  frontSprings: 40
+  rearSprings: 40
+  swayBar: "1 in"
+  wedge: 2.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74.5 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 40%
+    Rear Springs: 40%
+    Sway Bar: 1 in.
+    Wedge: +2.0
+    Gear Preset: 6
+    Setup by: Warhawk
+- track: "darlington"
+  author: "ZebFAN06"
+  tirePressure: 21
+  fenderFlare: 74.5
+  rearSpoiler: 70
+  frontSprings: 25
+  rearSprings: 65
+  swayBar: "1 in"
+  wedge: 1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.04
+    rearEnd: 3.45
+  raw: |-
+    Tire Pressure: 21
+    Fender Flare: 74.5 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 25%
+    Rear Springs: 65%
+    Sway Bar: 1 in.
+    Wedge: +1.5
+    Gears: 1.) 3.60  2.) 2.10  3.) 1.45  4.) 1.04  Rear End.) 3.45
+    Setup by: ZebFAN06
+- track: "darlington"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 90
+  rearSprings: 90
+  swayBar: "3/4 in"
+  wedge: 3.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Sway Bar: 3/4 in.
+    Wedge: +3.0
+    Gear Preset: 5
+    Setup by: Warhawk
+- track: "darlington"
+  author: "Anonymous"
+  tirePressure: 22
+  fenderFlare: 73.0
+  rearSpoiler: 70
+  frontSprings: 50
+  rearSprings: 75
+  swayBar: "3/4 in"
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.55
+    - 1.11
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 22
+    Fender Flare: 73 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 50%
+    Rear Springs: 75%
+    Sway Bare: 3/4 in.
+    Wedge: +2.0
+    Gears: 1.) 3.60 2.) 2.10 3.) 1.55 4.) 1.11 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "daytona"
+  author: "Warhawk"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "1 1/4 in"
+  wedge: 4.0
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 30 psi
+    Front Springs: 100%
+    Rear Springs: 100%
+    Sway Bar: 1 1/4 in.
+    Wedge: +4.0
+    Gear Preset: 4
+    Setup by: Warhawk
+- track: "daytona"
+  author: "Anonymous"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 4.0
+  raw: |-
+    Tire Pressure: 30
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +4.0
+    Setup by: anonymous...
+- track: "dover"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 75
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "1 in"
+  wedge: 3.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 75 degrees
+    Front Sprigns: 100%
+    Rear Springs: 100%
+    Sway Bar: 1 in.
+    Wedge: +3.0
+    Gear Preset: 5
+    Setup by: Warhawk
+- track: "dover"
+  author: "Anonymous"
+  tirePressure: 20
+  fenderFlare: 73.0
+  rearSpoiler: 68
+  frontSprings: 37
+  rearSprings: 75
+  swayBar: "3/4 in"
+  wedge: 0.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.7
+    - 1.17
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 20
+    Fender Flare: 73 in.
+    Rear Spoiler: 68 degrees
+    Front Springs: 37%
+    Rear Springs: 75%
+    Sway Bar: 3/4 in.
+    Wedge: +0.5
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.70 4.) 1.17 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "homestead"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "1 in"
+  wedge: 3.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 65 degrees
+    Front Sprigns: 100%
+    Rear Springs: 100%
+    Sway Bar: 1 in.
+    Wedge: +3.0
+    Gear Preset: 5
+    Setup by: Warhawk
+- track: "homestead"
+  author: "Anonymous"
+  tirePressure: 25
+  fenderFlare: 73.0
+  rearSpoiler: 64
+  frontSprings: 40
+  rearSprings: 70
+  swayBar: "5/8 in"
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.55
+    - 1.11
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 25
+    Fender Flare: 73 in.
+    Rear Spoiler: 64 degrees
+    Front Springs: 40%
+    Rear Springs: 70%
+    Sway Bar: 5/8 in.
+    Wedge: +2.0
+    Gears: 1.) 3.60  2.) 2.10  3.) 1.55  4.) 1.11  Rear End.) 3.50
+    Setup by: anonymous...
+- track: "indianapolis"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 55
+  frontSprings: 90
+  rearSprings: 90
+  swayBar: "7/8 in"
+  wedge: 2.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Sway Bar: 7/8 in.
+    Wedge: +2.5
+    Gear Preset: 7
+    Setup by: Warhawk
+- track: "indianapolis"
+  author: "Anonymous"
+  tirePressure: 30
+  fenderFlare: 73.0
+  rearSpoiler: 65
+  frontSprings: 39
+  rearSprings: 50
+  swayBar: "5/8 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.55
+    - 1.0
+    rearEnd: 3.6
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: 73 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 39%
+    Rear Springs: 50%
+    Sway Bar: 5/8 in.
+    Wedge: 0.0
+    Gears: 1.) 3.60 2.) 2.10 3.) 1.55 4.) 1.00 Rear End.) 3.60
+    Setup by: anonymous...
+- track: "infineon"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 60
+  rearSprings: 100
+  swayBar: "1 1/4 in"
+  wedge: 0.0
+  gears:
+    preset: 3
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Sway Bar: 1 1/4 in.
+    Wedge: 0.0
+    Gear Preset: 3
+    Setup by: Warhawk
+- track: "infineon"
+  author: "Anonymous"
+  tirePressure: 15
+  fenderFlare: 75.5
+  rearSpoiler: 75
+  frontSprings: 45
+  rearSprings: 60
+  swayBar: "3/4 in"
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.8
+    - 1.35
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75.5 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 45%
+    Rear Springs: 60%
+    Sway Bar: 3/4 in.
+    Wedge: +2.0
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.80 4.) 1.35 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "kansas"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 60
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "1 in"
+  wedge: 2.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 100%
+    Rear Springs: 100%
+    Sway Bar: 1 in.
+    Wedge: +2.0
+    Gear Preset: 6
+    Setup by: Warhawk
+- track: "kansas"
+  author: "Anonymous"
+  tirePressure: 26
+  fenderFlare: 73.0
+  rearSpoiler: 65
+  frontSprings: 55
+  rearSprings: 55
+  swayBar: "3/4 in"
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.07
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 26
+    Fender Flare: 73 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 55%
+    Rear Springs: 55%
+    Sway Bar: 3/4 in.
+    Wedge: +1.0
+    Gears: 1.) 3.60 2.) 2.10 3.) 1.45 4.) 1.07 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "las-vegas"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 75
+  frontSprings: 80
+  rearSprings: 80
+  swayBar: "1 in"
+  wedge: 3.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74  in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 80%
+    Rear Springs: 80%
+    Sway Bar: 1in.
+    Wedge: +3.0
+    Gear Preset: 5
+    Setup by: Warhawk
+- track: "las-vegas"
+  author: "Anonymous"
+  tirePressure: 22
+  fenderFlare: 74.5
+  rearSpoiler: 65
+  frontSprings: 45
+  rearSprings: 65
+  swayBar: "7/8 in"
+  wedge: 1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.55
+    - 1.07
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 22
+    Fender Flare: 74.5 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 45%
+    Rear Springs: 65%
+    Sway Bar: 7/8 in.
+    Wedge: +1.5
+    Gears: 1.) 3.60 2.) 2.10 3.) 1.55 4.) 1.07 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "martinsville"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 65
+  frontSprings: 60
+  rearSprings: 100
+  swayBar: "1/2 in"
+  wedge: 2.5
+  gears:
+    preset: 1
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Sway Bar: 1/2 in.
+    Wedge: +2.5
+    Gear Preset: 1
+    Setup by: Warhawk
+- track: "martinsville"
+  author: "Anonymous"
+  tirePressure: 15
+  fenderFlare: 76.0
+  rearSpoiler: 75
+  frontSprings: 55
+  rearSprings: 75
+  swayBar: "5/8 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.4
+    - 1.9
+    - 1.59
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 76 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 55%
+    Rear Springs: 75%
+    Sway Bar: 5/8 in.
+    Wedge: 0.0
+    Gears: 1.) 3.60 2.) 2.40 3.) 1.90 4.) 1.59 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "michigan"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 90
+  rearSprings: 90
+  swayBar: "1 in"
+  wedge: 3.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Sway Bar: 1 in.
+    Wedge: +3.0
+    Gear Preset: 7
+    Setup by: Warhawk
+- track: "michigan"
+  author: "Anonymous"
+  tirePressure: 30
+  fenderFlare: 73.0
+  rearSpoiler: 58
+  frontSprings: 38
+  rearSprings: 75
+  swayBar: "7/8 in"
+  wedge: 4.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.3
+    - 0.94
+    rearEnd: 3.75
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: 73 in.
+    Rear Spoiler: 58 degrees
+    Front Springs: 38%
+    Rear Springs: 75%
+    Sway Bar: 7/8 in.
+    Wedge: +4.0
+    Gears: 1.) 3.60 2.) 1.90 3.) 1.30 4.) 0.94 Rear End.) 3.75
+    Setup by: anonymous...
+- track: "new-hampshire"
+  author: "Warhawk"
+  tirePressure: 18
+  fenderFlare: 74.0
+  rearSpoiler: 70
+  frontSprings: 45
+  rearSprings: 50
+  swayBar: "3/8 in"
+  wedge: 1.0
+  gears:
+    preset: 3
+    ratios:
+    - null
+    - null
+    - null
+    - 1.37
+  raw: |-
+    Tire Pressure: 18
+    Fender Flare: 74 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 45%
+    Rear Springs: 50%
+    Sway Bar: 3/8 in.
+    Wedge: +1.0
+    Gear Preset: 3
+    Gears: 1.)  Default  2.) Default  3.) Default  4.) 1.37  Rear End.) Default
+    Setup by: Warhawk
+- track: "new-hampshire"
+  author: "Anonymous"
+  tirePressure: 17
+  fenderFlare: 74.0
+  rearSpoiler: 71
+  frontSprings: 55
+  rearSprings: 60
+  swayBar: "3/4 in"
+  wedge: 3.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.8
+    - 1.37
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 17
+    Fender Flare: 74 in.
+    Rear Spoiler: 71 degrees
+    Front Springs: 55%
+    Rear Springs: 60%
+    Sway Bar: 3/4 in.
+    Wedge: +3.0
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.80 4.) 1.37 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "rockingham"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 80
+  rearSprings: 80
+  swayBar: "1/2 in"
+  wedge: 3.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 80%
+    Rear Springs: 80%
+    Sway Bar: 1/2 in.
+    Wedge: +3.0
+    Gear Preset: 5
+    Setup by: Warhawk
+- track: "rockingham"
+  author: "Anonymous"
+  tirePressure: 22
+  fenderFlare: 76.0
+  rearSpoiler: 70
+  frontSprings: 50
+  rearSprings: 80
+  swayBar: "3/4 in"
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.7
+    - 1.19
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 22
+    Fender Flare: 76 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 50%
+    Rear Springs: 80%
+    Sway Bar: 3/4 in.
+    Wedge: +2.0
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.70 4.) 1.19 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "phoenix"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 70
+  frontSprings: 40
+  rearSprings: 50
+  swayBar: "1/2 in"
+  wedge: 1.0
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 40%
+    Rear Springs: 50%
+    Sway Bar: 1/2 in.
+    Wedge: +1.0
+    Gear Preset: 4
+    Setup by: Warhawk
+- track: "phoenix"
+  author: "Anonymous"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 70
+  frontSprings: 50
+  rearSprings: 60
+  swayBar: "3/4 in"
+  wedge: 0.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.7
+    - 1.2
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 50%
+    Rear Springs: 60%
+    Sway Bar: 3/4 in.
+    Wedge: +0.5
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.70 4.) 1.20 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "pocono"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 80
+  rearSprings: 100
+  swayBar: "7/8 in"
+  wedge: 2.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    FrontSprings: 80%
+    Rear Springs:: 100%
+    Sway Bar: 7/8 in.
+    Wedge: +2.5
+    Gear Preset: 7
+    Setup by: Warhawk
+- track: "pocono"
+  author: "Anonymous"
+  tirePressure: 29
+  fenderFlare: 75.5
+  rearSpoiler: 59
+  frontSprings: 45
+  rearSprings: 55
+  swayBar: "5/8 in"
+  wedge: 2.5
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.35
+    - 0.96
+    rearEnd: 3.75
+  raw: |-
+    Tire Pressure: 29
+    Fender Flare: 75.5 in.
+    Rear Spoiler: 59 degrees
+    Front Springs: 45%
+    Rear Springs: 55%
+    Sway Bar: 5/8 in.
+    Wedge: +2.5
+    Gears: 1.) 3.60 2.) 1.90 3.) 1.35 4.) 0.96 Rear End.) 3.75
+    Setup by: anonymous...
+- track: "richmond"
+  author: "Warhawk"
+  tirePressure: 19
+  fenderFlare: 75.0
+  rearSpoiler: 60
+  frontSprings: 55
+  rearSprings: 45
+  swayBar: "1/2 in"
+  wedge: 0.0
+  gears:
+    preset: 3
+    ratios:
+    - null
+    - null
+    - null
+    - 1.37
+  raw: |-
+    Tire Pressure: 19
+    Fender Flare: 75 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 55%
+    Rear Springs: 45%
+    Sway Bar: 1/2 in.
+    Wedge: 0.0
+    Gear Preset: 3
+    Gears 1.) Default  2.) Default  3.) Default  4.) 1.37
+    Setup by: Warhawk
+- track: "richmond"
+  author: "Anonymous"
+  tirePressure: 19
+  fenderFlare: 75.0
+  rearSpoiler: 74
+  frontSprings: 65
+  rearSprings: 55
+  swayBar: "3/4 in"
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.8
+    - 1.37
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 19
+    Fender Flare: 75 in.
+    Rear Spoiler: 74 degrees
+    Front Springs: 65%
+    Rear Springs: 55%
+    Sway Bar: 3/4 in.
+    Wedge: +2.0
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.80 4.) 1.37 Rear End.) 3.50
+    Setup by: anonymous...
+- track: "talladega"
+  author: "Warhawk"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  swayBar: "1 1/4 in"
+  wedge: 4.0
+  gears:
+    preset: 4
+    ratios:
+    - null
+    - null
+    - null
+    - 0.98
+    rearEnd: 3.7
+  raw: |-
+    Tire Pressure: 30
+    Front Springs: 100%
+    Rear Springs: 100%
+    Sway Bar: 1 1/4 in.
+    Wedge: +4.0
+    Gear Preset: 4
+    Gear 4.) 0.98
+    Rear End.) 3.70
+    Setup by: Warhawk
+- track: "talladega"
+  author: "Anonymous"
+  tirePressure: 30
+  frontSprings: 40
+  rearSprings: 50
+  swayBar: "7/8 in"
+  wedge: 2.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.8
+    - 1.25
+    - 0.9
+    rearEnd: 4.0
+  raw: |-
+    Tire Pressure: 30
+    Front Springs: 40%
+    Rear Springs: 50%
+    Sway Bar: 7/8 in.
+    Wedge: +2.0
+    Gears: 1.) 3.60 2.) 1.80 3.) 1.25 4.) 0.90 Rear End.) 4.00
+    Setup by: anonymous...
+- track: "texas"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 80
+  rearSprings: 100
+  swayBar: "1 in"
+  wedge: 3.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 80%
+    Rear Springs: 100%
+    Sway Bar: 1 in.
+    Wedge: +3.0
+    Gear Preset: 7
+    Setup by: Warhawk
+- track: "texas"
+  author: "Anonymous"
+  tirePressure: 22
+  fenderFlare: 73.5
+  rearSpoiler: 62
+  frontSprings: 40
+  rearSprings: 60
+  swayBar: "7/8 in"
+  wedge: 2.5
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 22
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 62 degrees
+    Front Springs: 40%
+    Rear Springs: 60%
+    Sway Bar: 7/8 in.
+    Wedge: +2.5
+    Gears: Preset 6
+    Setup by: anonymous...
+- track: "watkins-glen"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 60
+  frontSprings: 60
+  rearSprings: 100
+  swayBar: "1 1/4 in"
+  wedge: 0.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Sway Bar: 1 1/4 in.
+    Wedge: 0.0
+    Gear Preset: 5
+    Setup by: Warhawk
+- track: "watkins-glen"
+  author: "Anonymous"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 66
+  frontSprings: 60
+  rearSprings: 70
+  swayBar: "3/4 in"
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.7
+    - 1.2
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 66 degrees
+    Front Springs: 60%
+    Rear Springs: 70%
+    Sway Bar: 3/4 in.
+    Wedge: +1.0
+    Gears: 1.) 3.60 2.) 2.30 3.) 1.70 4.) 1.20 Rear End.)3.50
+    Setup by: anonymous...
+- track: "daytona-infield"
+  author: "Warhawk"
+  tirePressure: 21
+  fenderFlare: 73.5
+  rearSpoiler: 64
+  frontSprings: 26
+  rearSprings: 67
+  swayBar: "3/8 in"
+  wedge: -0.5
+  raw: |-
+    Tire Pressure: 21
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 64 degrees
+    Front Springs: 26%
+    Rear Springs: 67%
+    Sway Bar: 3/8 in.
+    Wedge: -0.5
+    Setup by: Warhawk
+- track: "homestead-infield"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 61
+  frontSprings: 45
+  rearSprings: 70
+  swayBar: "5/8 in"
+  wedge: -0.5
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 61 degrees
+    Front Springs: 45%
+    Rear Springs: 70%
+    Sway Bar: 5/8 in.
+    Wedge: -0.5
+    Gear Preset: 4
+    Setup by: Warhawk
+- track: "phoenix-infield"
+  author: "Warhawk"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 71
+  frontSprings: 25
+  rearSprings: 79
+  swayBar: "5/8 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.2
+    - 1.6
+    - 1.15
+    rearEnd: 3.6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 71 degrees
+    Front Springs: 25%
+    Rear Springs: 79%
+    Sway Bar: 5/8 in.
+    Wedge: 0.0
+    Gears: 1.) 3.60  2.) 2.20  3.) 1.60  4.) 1.15  Rear End.) 3.60
+    Setup by: Warhawk
+- track: "pocono-infield"
+  author: "Warhawk"
+  tirePressure: 18
+  fenderFlare: 73.5
+  rearSpoiler: 49
+  frontSprings: 30
+  rearSprings: 74
+  swayBar: "3/4 in"
+  wedge: -0.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.15
+    - 1.6
+    - 1.12
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 18
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 49 degrees
+    Front Springs: 30%
+    Rear Springs: 74%
+    Sway Bar: 3/4 in.
+    Wedge: -0.5
+    Gears: 1.)  3.60  2.) 2.15  3.) 1.60  4.)  1.12  Rear End.) 3.55
+    Setup by: Warhawk

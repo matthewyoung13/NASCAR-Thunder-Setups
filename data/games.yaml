@@ -1,0 +1,21 @@
+# Games on the site. `fields` lists the garage settings each game has;
+# the build fails if a setup uses a field its game doesn't have.
+games:
+  - id: thunder-2003
+    name: NASCAR Thunder 2003
+    released: 2002
+    series: [cup]
+    fields: [tirePressure, fenderFlare, rearSpoiler, frontSprings, rearSprings, swayBar, wedge, gears]
+    description: The only Thunder game here with a sway bar setting. Also has infield road courses.
+  - id: thunder-2004
+    name: NASCAR Thunder 2004
+    released: 2003
+    series: [cup]
+    fields: [tirePressure, fenderFlare, rearSpoiler, frontSprings, rearSprings, wedge, gears]
+    description: Includes both the 2002 and 2003 Homestead-Miami layouts.
+  - id: thunder-2005
+    name: NASCAR Thunder 2005
+    released: 2004
+    series: [cup, modified]
+    fields: [tirePressure, fenderFlare, rearSpoiler, frontSprings, rearSprings, wedge, gears]
+    description: The first Nextel Cup-era Thunder. Adds the Featherlite Modified Series.

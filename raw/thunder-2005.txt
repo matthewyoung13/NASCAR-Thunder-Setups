@@ -1,0 +1,680 @@
+
+
+Nascar Nextel Cup Series Setups
+nextelcuplogosmall.jpg
+
+Nascar National Series Setups
+buschweblogo.jpg
+
+Setups by Sharp2005
+
+Atlanta
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 50 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 7
+	
+Bristol
+Tire Pressure: 15
+Fender Flare: 74 in.
+Rear Spoiler: 60 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +2.5
+Gears: Preset 3
+	
+California
+Tire Pressure: 15
+Fender Flare: 73.5 in.
+Rear Spoiler: 50 degrees
+Front Springs: 90%
+Rear Springs: 90%
+Wedge: +1.5
+Gears: Preset 7
+Chicagoland
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 65%
+Rear Springs: 100%
+Wedge: +2.0
+Gears: Preset 7
+	
+Darlington
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 65 degrees
+Front Springs: 90%
+Rear Springs: 90%
+Wedge: +1.0
+Gears: Preset 6
+	
+Daytona
+Tire Pressure: 30
+Fender Flare: N/A
+Rear Spoiler: N/A
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 10
+Dover
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 60 degrees
+Front Springs: 70%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 5
+	
+Homestead-Miami
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 65
+Front Springs: 60%
+Rear Springs: 80%
+Wedge: +1.5
+Gears: Preset 6
+	
+Indianapolis
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 55 degrees
+Front Springs: 40%
+Rear Springs: 100%
+Wedge: +1.5
+Gears: Preset 7
+Infineon
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 75 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: 0.0
+Gears: Preset 4
+	
+Kansas
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +0.5
+Gears: Preset 6
+	
+Las Vegas
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 55 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 6
+
+Lowes
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +2.0
+Gears: Preset 6
+	
+
+Martinsville
+Tire Pressure: 15
+Fender Flare: 74 in.
+Rear Spoiler: 65 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +2.0
+Gears: Preset 1
+	
+
+Michigan
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 70%
+Rear Springs: 90%
+Wedge: +1.0
+Gears: Preset 7
+
+New Hampshire
+Tire Pressure: 15
+Fender Flare: 76 in.
+Rear Spoiler: 70 degrees
+Front Springs: 40%
+Rear Springs: 80%
+Wedge: +2.0
+Gears: Preset 4
+	
+
+North Carolina
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 70 degrees
+Front Springs: 80%
+Rear Springs: 80%
+Wedge: 0.0
+Gears: Preset 5
+	
+
+Phoenix
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 60 degrees
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +0.5
+Gears: Preset 4
+
+Richmond
+Tire Pressure: 15
+Fender Flare: 74.5 in.
+Rear Spoiler: 70 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +2.5
+Gears: Preset 3
+	
+
+Talladega
+Tire Pressure: 30
+Fender Flare: N/A
+Rear Spoiler: N/A
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +4.0
+Gears: Preset 10
+	
+
+Texas
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 50 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +1.0
+
+Watkins Glen
+Tire Pressure: in.
+Rear Spoiler: 60 degrees
+Front Springs: 60%15
+Fender Flare: 75
+Rear Springs: 100%
+Wedge: 0.0
+Gears: Preset 6
+	  	 
+
+Setups by BudFan81513
+
+Atlanta
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 50 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 7
+	
+Bristol
+Tire Pressure: 15
+Fender Flare: 74 in.
+Rear Spoiler: 60 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +2.5
+Gears: Preset 3
+	
+California
+Tire Pressure: 15
+Fender Flare: 73.5 in.
+Rear Spoiler: 50 degrees
+Front Springs: 90%
+Rear Springs: 90%
+Wedge:+1.5
+Gears: Preset 7
+Chicagoland
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 65%
+Rear Springs: 100%
+Wedge: +2.0
+Gears: Preset 6
+	
+Darlington
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 65 degrees
+Front Springs: 90%
+Rear Springs: 90%
+Wedge: +1.0
+Gears: Preset 6
+	
+Daytona
+Tire Pressure: 30
+Fender Flare: N/A
+Rear Spoiler: N/A
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 10
+Dover
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 60 degrees
+Front Springs: 70%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 5
+	
+Homestead
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 65 degrees
+Front Springs: 60%
+Rear Springs: 80%
+Wedge: +1.5
+Gears: Preset
+	
+Indianapolis
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 55 degrees
+Front Springs: 40%
+Rear Springs: 100%
+Wedge: +1.5
+Gears: Preset 7
+Infineon
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 75 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: 0.0
+Gears: Preset 4
+	
+Kansas
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +0.5
+Gears: Preset 6
+	
+Las Vegas
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 55 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 6
+Lowes
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge:+2.0
+Gears: Preset 6
+	
+Martinsville
+Tire Pressure: 15
+Fender Flare: 74 in.
+Rear Spoiler: 65 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 1
+	
+Michigan
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 45 degrees
+Front Springs: 70%
+Rear Springs: 90%
+Wedge: +1.0
+Gears: Preset 7
+
+New Hampshire
+Tire Pressure: 15
+Fender Flare: 76 in.
+Rear Spoiler: 70 degrees
+Front Springs: 40%
+Rear Springs: 80%
+Wedge: +2.0
+Gears: Preset 4
+	
+
+North Carolina
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 70 degrees
+Front Springs: 80%
+Rear Springs: 80%
+Wedge: 0.0
+Gears: Preset 5
+	
+
+Phoenix
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 60 degrees
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +0.5
+Gears: Preset 4
+
+Richmond
+Tire Pressure: 15
+Fender Flare: 74.5 in.
+Rear Spoiler: 70 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +2.5
+Gears: Preset 3
+	
+
+Talladega
+Tire Pressure: 30
+Fender Flare: N/A
+Rear Spoiler: N/A
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +4.0
+Gears: Preset 10
+	
+
+Texas
+Tire Pressure: 15
+Fender Flare: 73 in.
+Rear Spoiler: 50 degrees
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +1.0
+Gears: Preset 6
+
+Watkins Glen
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 60 degrees
+Front Springs: 60%
+Rear Springs: 100%
+Wedge: +0.0
+Gears: Preset 6
+	  	 
+
+Setups by BTW66
+
+Atlanta
+Tire Pressure: 20
+Fender Flare: 74.5 in.
+Rear Spoiler: 52 degrees
+Front Springs: 50%
+Rear Springs: 70%
+WG- -0.5
+Gears: default
+	
+Bristol
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 69 degrees
+Front Springs: 50%
+Rear Springs: 70%
+Wedge: -1.0
+Gears: preset 3; rear end 3.65
+	
+Darlington
+Tire Pressure: 22
+Fender Flare: 73 in.
+Rear Spoiler: 70 degrees
+Front Springs: 50%
+Rear Spoiler: 75%
+Wedge: -2.0
+Gears: preset 5; 4th 1.11
+Las Vegas
+Tire Pressure: 20
+Fender Flare: 75 in.
+Rear Spoiler: 65 degrees
+Front Springs: 40%
+Rear Springs: 65%
+Wedge: 0.0
+Gears: default
+	
+Martinsville
+Tire Pressure: 15
+Fender Flare: 76 in.
+Rear Spoiler: 75 degrees
+Front Springs: 55%
+Rear Springs: 75%
+Wedge: 0.0
+Gears: preset 1; 4th=1.59
+	
+Red Ball Raceway
+Tire Pressure: 15
+Fender Flare: 75 in.
+Rear Spoiler: 69 degrees
+Front Springs: 50%
+Rear Springs: 70%
+Wedge: -1.0
+Gears: preset 3; rear end 3.65
+
+Setups by jjerz19
+
+Talladega
+Tire Pressure: 15
+Fender Flare: N/A
+Rear Spoiler: N/A
+Front spring: 1%
+Rear spring:100%
+Wedge: +4
+Gear ratios: only change 4th to .81
+
+Setups by Mikes5276
+
+Atlanta
+Tire Pressure: 15
+Front Springs: 75%
+Rear Springs: 100%
+Wedge: +3.0
+Gears: 1) 3.6 2) 2.25 3) 1.37 4) 1.02 RE) 3.5
+Best Lap: 29.262
+	
+Bristol
+Tire Pressure: 15
+Front: 100%
+Rear: 100%
+Wedge: -1.0
+Gears: 1) 3.6 2) 2.4 3) 2.0 4) 1.6 RE) 3.5
+Best Lap: 14.985
+	
+
+California
+Tire Pressure: 15
+Front: 100%
+Rear: 100%
+Wedge:+1.0
+Gears: 1) 3.6 2) 1.95 3) 1.27 4) .92 RE) 3.8
+Best Lap: 37.998
+Chicagoland
+Tire Pressure: 15
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: +1.5
+Gears: 1) 3.6 2) 2.05 3) 1.55 4) 1.05 RE) 3.55
+Best Lap: 29.862
+	
+Darlington
+Tire Pressure: 15
+Fender Flare: ?
+Rear Spoiler: ?
+Front Springs: 90%
+Rear Springs: 90%
+Wedge: +1.0
+Gears: 1) 3.6 2) 2.3 3) 1.4 4)1.1 RE) 3.7
+Best Lap: 28.263
+	
+
+Daytona
+Tire Pressure: 30
+Fender Flare: N/A
+Rear Spoiler: N/A
+Front Springs: 1%
+Rear Springs: 100%
+Wedge: +2.5
+Gears: 1) 3.6 2) 2.1 3.) 1.25 4) 0.81 RE) 3.5
+Best Lap: 47.197
+
+Dover
+Tire Pressure: 15
+Front Springs: 100%
+Rear Springs: 95%
+Wedge: +0.5
+Gears: 1) 3.6 2) 2.2 3)1.55 4)1.12 RE)3.65
+Best Lap: 22.169
+	
+
+Homestead-Miami
+Tire Pressure: 15
+Front Springs: 100%
+Rear Springs: 100%
+Wedge: 0.0
+Gears: 1)3.6 2)2.0 3)1.42 4)1.00 RE)3.5
+Best Lap: 31.257
+	
+
+Indianapolis
+Tire Pressure: 15
+Front Springs: 90%
+Rear Springs: 100%
+Wedge: +1.5
+Gears: 1)3.6 2)2.4 3)1.52 4)1.05 RE)3.50
+Best Lap: 51.924
+
+Infineon
+15 PSI
+Front: 95
+Rear: 100
+Wedge: -1.0
+Gears: 1)3.6 2)2.4 3)1.85 4)1.36 RE)3.65
+Best Lap: 1:14:727
+	
+
+Add your content here
+	
+
+Add your content here
+
+Add your content here
+	
+
+Add your content here
+	
+
+Add your content here
+
+Featherlite Modified Series Setups
+
+Setups by ZebFAN06
+
+Dodge Raceway:
+Tire Pressure: 19
+Rear Spoiler: 75 degrees
+Front Springs: 1%
+Rear Springs: 75%
+Wedge: 0.0
+Gears: 1) 3.60 2) 2.40 3) 2.00 4) 1.60 RE) 3.45
+	
+Levi Stauss Signature Speedway:
+Tire Pressure: 18
+Rear Spoiler: 70 degrees
+Front Springs: 20%
+Rear Springs: 80%
+Wedge: 0.0
+Gears: 1) 3.30 2) 2.30 3) 1.80 4) 1.41 RE) 3.55
+	
+Old Spice High Endurance Speedway:
+Tire Pressure: 20
+Rear Spoiler: 70 degrees
+Front Springs: 40%
+Rear Springs: 60%
+Wedge: +1.0
+Gears: 1) 3.30 2) 2.30 3) 1.65 4) 1.31 RE) 3.55
+Red Ball Raceway:
+Tire Pressure: 18
+Rear Spoiler: 70 degrees
+Front Springs: 10%
+Rear Springs: 85%
+Wedge: +2.0
+Gears: Preset 2
+	
+IRP:
+Tire Pressure: 19
+Rear Spoiler: 65 degrees
+Front Springs: 9%
+Rear Springs: 72%
+Wedge: 0.0
+Gears: 1) 3.30 2) 2.40 3) 1.90 4) 1.50 RE) 3.50
+	
+Martinsville:
+Tire Pressure: 18
+Rear Spoiler: 70 degrees
+Front Springs: 35%
+Rear Springs: 65%
+Wedge: +1.5
+Gears: 1) 3.30 2) 2.40 3) 1.90 4) 1.60 RE) 3.55
+Milwaukee:
+Tire Pressure: 30
+Rear Spoiler: 70 degrees
+Front Springs: 10%
+Rear Springs: 75%
+Wedge: +0.5
+Gears: 1) 3.25 2) 2.25 3) 1.75 4) 1.39 RE) 3.45
+	
+Nazereth:
+Tire Pressure: 20
+Rear Spoiler: 70 degrees
+Front Springs: 1%
+Rear Springs: 90%
+Wedge: +0.5
+Gears: Preset 3
+	
+New Hampshire:
+Tire Pressure: 20
+Rear Spoiler: 70 degrees
+Front Springs: 10%
+Rear Springs: 100%
+Wedge: +0.5
+Gears: Preset 3
+
+North Carolina:
+Tire Pressure: 20
+Rear Spoiler: 70 degrees
+Front Springs: 10%
+Rear Springs: 100%
+Wedge: 0.0
+Gears: Preset 5
+	
+
+Richmond:
+Tire Pressure: 17
+Rear Spoiler: 71 degrees
+Front Springs: 5%
+Rear Springs: 95%
+Wedge: +1.0
+Gears: Preset 3
+	
+
+Watkins Glen:
+Tire Pressure: 15
+Rear Spoiler: 75 degrees
+Front Springs: 50%
+Rear Springs: 50%
+Wedge: +2.0
+Gears: Preset 7 

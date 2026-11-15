@@ -1,0 +1,8 @@
+series:
+  - id: cup
+    name: Cup Series
+    description: Winston Cup / Nextel Cup
+  - id: busch
+    name: Busch Series
+  - id: modified
+    name: Featherlite Modified Series

@@ -1,0 +1,1140 @@
+# thunder-2005 / cup: imported from raw/thunder-2005.txt
+game: "thunder-2005"
+series: "cup"
+setups:
+- track: "atlanta"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 50
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 50 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 7
+- track: "atlanta"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 50
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 50 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 7
+- track: "atlanta"
+  author: "BTW66"
+  tirePressure: 20
+  fenderFlare: 74.5
+  rearSpoiler: 52
+  frontSprings: 50
+  rearSprings: 70
+  wedge: -0.5
+  gears:
+    useDefault: true
+  raw: |-
+    Tire Pressure: 20
+    Fender Flare: 74.5 in.
+    Rear Spoiler: 52 degrees
+    Front Springs: 50%
+    Rear Springs: 70%
+    WG- -0.5
+    Gears: default
+- track: "atlanta"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 3.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.25
+    - 1.37
+    - 1.02
+    rearEnd: 3.5
+  bestLap: "29.262"
+  raw: |-
+    Tire Pressure: 15
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +3.0
+    Gears: 1) 3.6 2) 2.25 3) 1.37 4) 1.02 RE) 3.5
+    Best Lap: 29.262
+- track: "bristol"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 60
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 2.5
+  gears:
+    preset: 3
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +2.5
+    Gears: Preset 3
+- track: "bristol"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 60
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 2.5
+  gears:
+    preset: 3
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +2.5
+    Gears: Preset 3
+- track: "bristol"
+  author: "BTW66"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 69
+  frontSprings: 50
+  rearSprings: 70
+  wedge: -1.0
+  gears:
+    preset: 3
+    rearEnd: 3.65
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 69 degrees
+    Front Springs: 50%
+    Rear Springs: 70%
+    Wedge: -1.0
+    Gears: preset 3; rear end 3.65
+- track: "bristol"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 100
+  rearSprings: 100
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.4
+    - 2.0
+    - 1.6
+    rearEnd: 3.5
+  bestLap: "14.985"
+  raw: |-
+    Tire Pressure: 15
+    Front: 100%
+    Rear: 100%
+    Wedge: -1.0
+    Gears: 1) 3.6 2) 2.4 3) 2.0 4) 1.6 RE) 3.5
+    Best Lap: 14.985
+- track: "california"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 50
+  frontSprings: 90
+  rearSprings: 90
+  wedge: 1.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 50 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Wedge: +1.5
+    Gears: Preset 7
+- track: "california"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 50
+  frontSprings: 90
+  rearSprings: 90
+  wedge: 1.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73.5 in.
+    Rear Spoiler: 50 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Wedge:+1.5
+    Gears: Preset 7
+- track: "california"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.95
+    - 1.27
+    - 0.92
+    rearEnd: 3.8
+  bestLap: "37.998"
+  raw: |-
+    Tire Pressure: 15
+    Front: 100%
+    Rear: 100%
+    Wedge:+1.0
+    Gears: 1) 3.6 2) 1.95 3) 1.27 4) .92 RE) 3.8
+    Best Lap: 37.998
+- track: "charlotte"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 2.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +2.0
+    Gears: Preset 6
+- track: "charlotte"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 2.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge:+2.0
+    Gears: Preset 6
+- track: "chicagoland"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 65
+  rearSprings: 100
+  wedge: 2.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 65%
+    Rear Springs: 100%
+    Wedge: +2.0
+    Gears: Preset 7
+- track: "chicagoland"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 65
+  rearSprings: 100
+  wedge: 2.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 65%
+    Rear Springs: 100%
+    Wedge: +2.0
+    Gears: Preset 6
+- track: "chicagoland"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.05
+    - 1.55
+    - 1.05
+    rearEnd: 3.55
+  bestLap: "29.862"
+  raw: |-
+    Tire Pressure: 15
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +1.5
+    Gears: 1) 3.6 2) 2.05 3) 1.55 4) 1.05 RE) 3.55
+    Best Lap: 29.862
+- track: "darlington"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 90
+  rearSprings: 90
+  wedge: 1.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Wedge: +1.0
+    Gears: Preset 6
+- track: "darlington"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 90
+  rearSprings: 90
+  wedge: 1.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 90%
+    Rear Springs: 90%
+    Wedge: +1.0
+    Gears: Preset 6
+- track: "darlington"
+  author: "BTW66"
+  tirePressure: 22
+  fenderFlare: 73.0
+  rearSpoiler: 70
+  frontSprings: 50
+  rearSprings: 75
+  wedge: -2.0
+  gears:
+    preset: 5
+    ratios:
+    - null
+    - null
+    - null
+    - 1.11
+  raw: |-
+    Tire Pressure: 22
+    Fender Flare: 73 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 50%
+    Rear Spoiler: 75%
+    Wedge: -2.0
+    Gears: preset 5; 4th 1.11
+- track: "darlington"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 90
+  rearSprings: 90
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.4
+    - 1.1
+    rearEnd: 3.7
+  bestLap: "28.263"
+  notes: "Fender flare not given; Rear spoiler not given"
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: ?
+    Rear Spoiler: ?
+    Front Springs: 90%
+    Rear Springs: 90%
+    Wedge: +1.0
+    Gears: 1) 3.6 2) 2.3 3) 1.4 4)1.1 RE) 3.7
+    Best Lap: 28.263
+- track: "daytona"
+  author: "Sharp2005"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 10
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: N/A
+    Rear Spoiler: N/A
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 10
+- track: "daytona"
+  author: "BudFan81513"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 10
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: N/A
+    Rear Spoiler: N/A
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 10
+- track: "daytona"
+  author: "Mikes5276"
+  tirePressure: 30
+  frontSprings: 1
+  rearSprings: 100
+  wedge: 2.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.25
+    - 0.81
+    rearEnd: 3.5
+  bestLap: "47.197"
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: N/A
+    Rear Spoiler: N/A
+    Front Springs: 1%
+    Rear Springs: 100%
+    Wedge: +2.5
+    Gears: 1) 3.6 2) 2.1 3.) 1.25 4) 0.81 RE) 3.5
+    Best Lap: 47.197
+- track: "dover"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 60
+  frontSprings: 70
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 70%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 5
+- track: "dover"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 60
+  frontSprings: 70
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 70%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 5
+- track: "dover"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 100
+  rearSprings: 95
+  wedge: 0.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.2
+    - 1.55
+    - 1.12
+    rearEnd: 3.65
+  bestLap: "22.169"
+  raw: |-
+    Tire Pressure: 15
+    Front Springs: 100%
+    Rear Springs: 95%
+    Wedge: +0.5
+    Gears: 1) 3.6 2) 2.2 3)1.55 4)1.12 RE)3.65
+    Best Lap: 22.169
+- track: "homestead"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 60
+  rearSprings: 80
+  wedge: 1.5
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 65
+    Front Springs: 60%
+    Rear Springs: 80%
+    Wedge: +1.5
+    Gears: Preset 6
+- track: "homestead"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 60
+  rearSprings: 80
+  wedge: 1.5
+  notes: "The source says 'Preset' but gives no preset number."
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 60%
+    Rear Springs: 80%
+    Wedge: +1.5
+    Gears: Preset
+- track: "homestead"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.0
+    - 1.42
+    - 1.0
+    rearEnd: 3.5
+  bestLap: "31.257"
+  raw: |-
+    Tire Pressure: 15
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: 0.0
+    Gears: 1)3.6 2)2.0 3)1.42 4)1.00 RE)3.5
+    Best Lap: 31.257
+- track: "indianapolis"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 40
+  rearSprings: 100
+  wedge: 1.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 40%
+    Rear Springs: 100%
+    Wedge: +1.5
+    Gears: Preset 7
+- track: "indianapolis"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 40
+  rearSprings: 100
+  wedge: 1.5
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 40%
+    Rear Springs: 100%
+    Wedge: +1.5
+    Gears: Preset 7
+- track: "indianapolis"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 90
+  rearSprings: 100
+  wedge: 1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.4
+    - 1.52
+    - 1.05
+    rearEnd: 3.5
+  bestLap: "51.924"
+  raw: |-
+    Tire Pressure: 15
+    Front Springs: 90%
+    Rear Springs: 100%
+    Wedge: +1.5
+    Gears: 1)3.6 2)2.4 3)1.52 4)1.05 RE)3.50
+    Best Lap: 51.924
+- track: "infineon"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 0.0
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: 0.0
+    Gears: Preset 4
+- track: "infineon"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 0.0
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: 0.0
+    Gears: Preset 4
+- track: "infineon"
+  author: "Mikes5276"
+  tirePressure: 15
+  frontSprings: 95
+  rearSprings: 100
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.4
+    - 1.85
+    - 1.36
+    rearEnd: 3.65
+  bestLap: "1:14:727"
+  raw: |-
+    15 PSI
+    Front: 95
+    Rear: 100
+    Wedge: -1.0
+    Gears: 1)3.6 2)2.4 3)1.85 4)1.36 RE)3.65
+    Best Lap: 1:14:727
+- track: "kansas"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 0.5
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +0.5
+    Gears: Preset 6
+- track: "kansas"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 0.5
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +0.5
+    Gears: Preset 6
+- track: "las-vegas"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 6
+- track: "las-vegas"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 55
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 55 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 6
+- track: "las-vegas"
+  author: "BTW66"
+  tirePressure: 20
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 40
+  rearSprings: 65
+  wedge: 0.0
+  gears:
+    useDefault: true
+  raw: |-
+    Tire Pressure: 20
+    Fender Flare: 75 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 40%
+    Rear Springs: 65%
+    Wedge: 0.0
+    Gears: default
+- track: "martinsville"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 65
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 2.0
+  gears:
+    preset: 1
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +2.0
+    Gears: Preset 1
+- track: "martinsville"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 65
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 1
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74 in.
+    Rear Spoiler: 65 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 1
+- track: "martinsville"
+  author: "BTW66"
+  tirePressure: 15
+  fenderFlare: 76.0
+  rearSpoiler: 75
+  frontSprings: 55
+  rearSprings: 75
+  wedge: 0.0
+  gears:
+    preset: 1
+    ratios:
+    - null
+    - null
+    - null
+    - 1.59
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 76 in.
+    Rear Spoiler: 75 degrees
+    Front Springs: 55%
+    Rear Springs: 75%
+    Wedge: 0.0
+    Gears: preset 1; 4th=1.59
+- track: "michigan"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 70
+  rearSprings: 90
+  wedge: 1.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 70%
+    Rear Springs: 90%
+    Wedge: +1.0
+    Gears: Preset 7
+- track: "michigan"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 45
+  frontSprings: 70
+  rearSprings: 90
+  wedge: 1.0
+  gears:
+    preset: 7
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 45 degrees
+    Front Springs: 70%
+    Rear Springs: 90%
+    Wedge: +1.0
+    Gears: Preset 7
+- track: "new-hampshire"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 76.0
+  rearSpoiler: 70
+  frontSprings: 40
+  rearSprings: 80
+  wedge: 2.0
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 76 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 40%
+    Rear Springs: 80%
+    Wedge: +2.0
+    Gears: Preset 4
+- track: "new-hampshire"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 76.0
+  rearSpoiler: 70
+  frontSprings: 40
+  rearSprings: 80
+  wedge: 2.0
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 76 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 40%
+    Rear Springs: 80%
+    Wedge: +2.0
+    Gears: Preset 4
+- track: "rockingham"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 70
+  frontSprings: 80
+  rearSprings: 80
+  wedge: 0.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 80%
+    Rear Springs: 80%
+    Wedge: 0.0
+    Gears: Preset 5
+- track: "rockingham"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 70
+  frontSprings: 80
+  rearSprings: 80
+  wedge: 0.0
+  gears:
+    preset: 5
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 80%
+    Rear Springs: 80%
+    Wedge: 0.0
+    Gears: Preset 5
+- track: "phoenix"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 60
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 0.5
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +0.5
+    Gears: Preset 4
+- track: "phoenix"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 60
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 0.5
+  gears:
+    preset: 4
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +0.5
+    Gears: Preset 4
+- track: "richmond"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 74.5
+  rearSpoiler: 70
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 2.5
+  gears:
+    preset: 3
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74.5 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +2.5
+    Gears: Preset 3
+- track: "richmond"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 74.5
+  rearSpoiler: 70
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 2.5
+  gears:
+    preset: 3
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 74.5 in.
+    Rear Spoiler: 70 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +2.5
+    Gears: Preset 3
+- track: "talladega"
+  author: "Sharp2005"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 4.0
+  gears:
+    preset: 10
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: N/A
+    Rear Spoiler: N/A
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +4.0
+    Gears: Preset 10
+- track: "talladega"
+  author: "BudFan81513"
+  tirePressure: 30
+  frontSprings: 100
+  rearSprings: 100
+  wedge: 4.0
+  gears:
+    preset: 10
+  raw: |-
+    Tire Pressure: 30
+    Fender Flare: N/A
+    Rear Spoiler: N/A
+    Front Springs: 100%
+    Rear Springs: 100%
+    Wedge: +4.0
+    Gears: Preset 10
+- track: "talladega"
+  author: "Jjerz19"
+  tirePressure: 15
+  frontSprings: 1
+  rearSprings: 100
+  wedge: 4.0
+  gears:
+    ratios:
+    - null
+    - null
+    - null
+    - 0.81
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: N/A
+    Rear Spoiler: N/A
+    Front spring: 1%
+    Rear spring:100%
+    Wedge: +4
+    Gear ratios: only change 4th to .81
+- track: "texas"
+  author: "Sharp2005"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 50
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 1.0
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 50 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +1.0
+- track: "texas"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 73.0
+  rearSpoiler: 50
+  frontSprings: 75
+  rearSprings: 100
+  wedge: 1.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 73 in.
+    Rear Spoiler: 50 degrees
+    Front Springs: 75%
+    Rear Springs: 100%
+    Wedge: +1.0
+    Gears: Preset 6
+- track: "watkins-glen"
+  author: "Sharp2005"
+  tirePressure: 15
+  notes: "The source text for this setup was jumbled; tire pressure (15) and front springs (60%) were reconstructed from it."
+  fenderFlare: 75.0
+  rearSpoiler: 60
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 0.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 60%15
+    Fender Flare: 75
+    Rear Springs: 100%
+    Wedge: 0.0
+    Gears: Preset 6
+- track: "watkins-glen"
+  author: "BudFan81513"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 60
+  frontSprings: 60
+  rearSprings: 100
+  wedge: 0.0
+  gears:
+    preset: 6
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 60 degrees
+    Front Springs: 60%
+    Rear Springs: 100%
+    Wedge: +0.0
+    Gears: Preset 6
+- track: "red-ball-raceway"
+  author: "BTW66"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 69
+  frontSprings: 50
+  rearSprings: 70
+  wedge: -1.0
+  gears:
+    preset: 3
+    rearEnd: 3.65
+  raw: |-
+    Tire Pressure: 15
+    Fender Flare: 75 in.
+    Rear Spoiler: 69 degrees
+    Front Springs: 50%
+    Rear Springs: 70%
+    Wedge: -1.0
+    Gears: preset 3; rear end 3.65
