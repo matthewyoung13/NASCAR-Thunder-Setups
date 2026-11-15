@@ -98,13 +98,21 @@ data class Setup(
     fun valuesKey() = copy(raw = null, source = null, notes = null, author = author.lowercase())
 }
 
-/** One YAML file under data/setups: all setups for one game + series. */
+/**
+ * One YAML file under data/setups: setups for one game + series, usually from one source.
+ * A game and series can have several files (e.g. cup.yaml and cup-ign.yaml).
+ */
 @Serializable
 data class SetupFile(
     val game: String,
     val series: String,
+    /** Where these setups were found; applies to every setup that doesn't name its own source. */
+    val source: String? = null,
     val setups: List<Setup>,
-)
+) {
+    /** Setups with the file's [source] filled in. */
+    fun resolvedSetups(): List<Setup> = setups.map { if (it.source == null && source != null) it.copy(source = source) else it }
+}
 
 @Serializable
 data class GamesFile(val games: List<Game>)

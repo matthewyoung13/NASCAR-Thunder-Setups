@@ -41,13 +41,15 @@ Edit the YAML under `data/setups/<game>/<series>.yaml`. Each entry looks like th
 
 ## Importing more text dumps
 
-`raw/` holds the original text files. To convert a new one, save it as `raw/<game-id>.txt` and run:
+`raw/` holds the original text files. To convert a new one, save it as `raw/<game-id>.txt`, or `raw/<game-id>-<source>.txt` for a second source for the same game (e.g. `raw/thunder-2003-ign.txt`), and run:
 
 ```bash
 ./gradlew importTxt
 ```
 
-This writes draft YAML to `build/import/setups/` and a list of anything it wasn't sure about to `build/import/REVIEW.md`. Check those items, then copy the YAML into `data/setups/`. Running it again overwrites only `build/import`, never `data/`.
+This writes draft YAML to `build/import/setups/` and a list of anything it wasn't sure about to `build/import/REVIEW.md`. A file with a source tag becomes its own YAML file (`thunder-2003/cup-ign.yaml`) whose top-level `source:` applies to every setup in it. Check the flagged items, then copy the YAML into `data/setups/`. Running it again overwrites only `build/import`, never `data/`.
+
+The importer understands both the long format (`Tire Pressure: 20`, one setting per line, `Setup by: X`) and the compact one (`Down Force: FF 75in; RS 70°`, `Suspension: FS 40%; RS 60%; SB 1/2in; W -1.5`, `Gear Ratio: 1st 3.60; …; RE 3.55`).
 
 ## Layout
 

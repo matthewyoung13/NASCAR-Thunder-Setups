@@ -19,7 +19,7 @@ class Dataset(
     val tracksById = tracks.associateBy { it.id }
 
     fun setupsFor(game: String, series: String): List<Setup> =
-        setupFiles.filter { it.game == game && it.series == series }.flatMap { it.setups }
+        setupFiles.filter { it.game == game && it.series == series }.flatMap { it.resolvedSetups() }
 }
 
 object DataLoader {
@@ -34,7 +34,8 @@ object DataLoader {
         val setupFiles = if (setupsDir.exists()) {
             setupsDir.walk()
                 .filter { it.isRegularFile() && it.extension in setOf("yaml", "yml") }
-                .sortedBy { it.toString() }
+                // "cup.yaml" before "cup-ign.yaml": a game's main file first, extra sources after.
+                .sortedBy { it.toString().substringBeforeLast('.') }
                 .map { read(it, SetupFile.serializer()) }
                 .toList()
         } else emptyList()

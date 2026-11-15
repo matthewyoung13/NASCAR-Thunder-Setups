@@ -19,7 +19,7 @@ class Site(private val data: Dataset, private val basePath: String = "/") {
     private val entries: List<Entry> = data.setupFiles.flatMap { f ->
         val game = data.gamesById.getValue(f.game)
         val series = data.seriesById.getValue(f.series)
-        f.setups.map { Entry(game, series, data.tracksById.getValue(it.track), it) }
+        f.resolvedSetups().map { Entry(game, series, data.tracksById.getValue(it.track), it) }
     }
 
     private val authors: Map<String, List<Entry>> =

@@ -29,7 +29,13 @@ data class ParseResult(val setups: List<ParsedSetup>, val issues: List<Issue>)
  */
 class TxtParser(private val resolveTrack: (String) -> String?) {
 
-    private enum class Kind { TIRE, FENDER, SPOILER, FRONT, REAR, SWAY, WEDGE, GEARS, GEAR_PRESET, GEARS_CONT, BEST_LAP }
+    private enum class Kind {
+        TIRE, FENDER, SPOILER, FRONT, REAR, SWAY, WEDGE, GEARS, GEAR_PRESET, GEARS_CONT, BEST_LAP,
+        /** "Down Force: FF 75in; RS 70°" (fender flare + rear spoiler on one line) */
+        DOWNFORCE,
+        /** "Suspension: FS 63%; RS 68%; SB 7/8in; W +1.0" (springs, sway bar, wedge on one line) */
+        SUSPENSION,
+    }
 
     private val labels: List<Pair<Regex, Kind>> = listOf(
         """rear\s*end""" to Kind.GEARS_CONT,
@@ -44,6 +50,8 @@ class TxtParser(private val resolveTrack: (String) -> String?) {
         """sway\s*bar[a-z]*""" to Kind.SWAY,
         """wedge|wg(?![a-z])""" to Kind.WEDGE,
         """best\s*lap""" to Kind.BEST_LAP,
+        """down\s*force""" to Kind.DOWNFORCE,
+        """suspension""" to Kind.SUSPENSION,
     ).map { (pattern, kind) -> Regex("""^\s*($pattern)(.*)$""", RegexOption.IGNORE_CASE) to kind }
 
     private class Entry(val startLine: Int) {
@@ -142,7 +150,8 @@ class TxtParser(private val resolveTrack: (String) -> String?) {
             return
         }
 
-        resolveTrack(line)?.let { id ->
+        // Track headings, possibly followed by race names: "Daytona - Daytona 500/Pepsi 400".
+        (resolveTrack(line) ?: line.split(" - ").takeIf { it.size > 1 }?.let { resolveTrack(it[0]) })?.let { id ->
             flush(); track = id; return
         }
 
@@ -168,13 +177,38 @@ class TxtParser(private val resolveTrack: (String) -> String?) {
         val e = current(lineNo)
         e.raw += line
         e.seen += kind
+        applyField(e, kind, valueIn, line, lineNo)
+    }
 
-        val (value, separator) = splitSeparator(valueIn)
+    /** @param hasSeparator false for the parts of a combined line ("W -1.5"), where a leading "-" is a sign. */
+    private fun applyField(e: Entry, kind: Kind, valueIn: String, line: String, lineNo: Int, hasSeparator: Boolean = true) {
+        val (value, separator) = if (hasSeparator) splitSeparator(valueIn) else valueIn to null
         val v = value.trim().trimEnd(':').trim()
         val lv = v.lowercase()
         fun flag(msg: String) { issues += Issue(lineNo, msg, line) }
 
         when (kind) {
+            Kind.DOWNFORCE, Kind.SUSPENSION -> {
+                if (isNa(lv)) return // plate tracks: no fender flare or spoiler adjustments
+                v.split(';').map { it.trim() }.filter { it.isNotEmpty() }.forEach { part ->
+                    val m = Regex("""^(ff|rs|fs|sb|w)\s+(.*)$""", RegexOption.IGNORE_CASE).find(part)
+                    // "RS" is the rear spoiler on the Down Force line and rear springs on the Suspension line.
+                    val sub = when (m?.groupValues?.get(1)?.lowercase()) {
+                        "ff" -> Kind.FENDER
+                        "rs" -> if (kind == Kind.DOWNFORCE) Kind.SPOILER else Kind.REAR
+                        "fs" -> Kind.FRONT
+                        "sb" -> Kind.SWAY
+                        "w" -> Kind.WEDGE
+                        else -> null
+                    }
+                    if (m == null || sub == null) {
+                        flag("Unrecognised part '$part'")
+                    } else {
+                        e.seen += sub
+                        applyField(e, sub, m.groupValues[2], line, lineNo, hasSeparator = false)
+                    }
+                }
+            }
             Kind.TIRE -> {
                 e.tire = firstNumber(v)?.toInt()
                 if (e.tire == null) flag("Tire pressure has no number")
@@ -194,7 +228,7 @@ class TxtParser(private val resolveTrack: (String) -> String?) {
                 lv == "?" -> e.notes += "Rear spoiler not given"
                 else -> {
                     e.spoiler = firstNumber(v)?.toInt()
-                    if (e.spoiler == null || !Regex("""^\d+\s*(degrees)?$""").matches(lv)) flag("Unusual rear spoiler value")
+                    if (e.spoiler == null || !Regex("""^\d+\s*(degrees|°)?$""").matches(lv)) flag("Unusual rear spoiler value")
                 }
             }
             Kind.FRONT, Kind.REAR -> {

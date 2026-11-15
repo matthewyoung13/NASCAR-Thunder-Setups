@@ -191,6 +191,40 @@ class TxtParserTest {
     }
 
     @Test
+    fun `combined down force and suspension lines`() {
+        val r = parse(
+            """
+            Bristol - Food City 500/Sharpie 500
+
+            Tire Pressure: 15psi
+            Down Force: FF 74 1/2in; RS 70°
+            Suspension: FS 40%; RS 60%; SB 1/2in; W -1.5
+            Gear Ratio: 1st 3.60; 2nd 2.40; 3rd 1.80; 4th 1.40; RE 3.55
+            Atlanta - MBNA America 500/NAPA 500
+
+            Tire Pressure: 30psi
+            Down Force: N/A
+            Suspension: FS 63%; RS 68%; SB 7/8in; W +1.0
+            """
+        )
+        assertEquals(listOf("bristol", "atlanta"), r.setups.map { it.setup.track })
+        val s = r.setups[0].setup
+        assertEquals(15, s.tirePressure)
+        assertEquals(74.5, s.fenderFlare)
+        assertEquals(70, s.rearSpoiler)
+        assertEquals(40, s.frontSprings)
+        assertEquals(60, s.rearSprings)
+        assertEquals("1/2 in", s.swayBar)
+        assertEquals(-1.5, s.wedge)
+        assertEquals(Gears(ratios = listOf(3.60, 2.40, 1.80, 1.40), rearEnd = 3.55), s.gears)
+        val plate = r.setups[1].setup
+        assertNull(plate.fenderFlare)
+        assertNull(plate.rearSpoiler)
+        assertEquals(1.0, plate.wedge)
+        assertTrue(r.issues.none { "may mean" in it.message || "Unusual" in it.message || "Unrecognised" in it.message }, r.issues.toString())
+    }
+
+    @Test
     fun `first number understands fractions`() {
         assertEquals(73.5, TxtParser.firstNumber("73 1/2 in."))
         assertEquals(0.75, TxtParser.firstNumber("3/4 in"))

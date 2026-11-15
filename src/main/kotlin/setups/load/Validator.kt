@@ -19,10 +19,11 @@ object Validator {
             g.series.filter { it !in data.seriesById }.forEach { errors += "Game '${g.id}' lists unknown series '$it'" }
         }
 
-        val seenFiles = mutableSetOf<Pair<String, String>>()
+        // Duplicate detection spans every file for the same game and series.
+        val seenByGameSeries = mutableMapOf<Pair<String, String>, MutableMap<Setup, String>>()
         data.setupFiles.forEach { file ->
-            val where = "${file.game}/${file.series}"
-            if (!seenFiles.add(file.game to file.series)) errors += "$where: more than one file for this game and series"
+            val where = "${file.game}/${file.series}" + (file.source?.let { " ($it)" } ?: "")
+            val seen = seenByGameSeries.getOrPut(file.game to file.series) { mutableMapOf() }
             val game = data.gamesById[file.game]
             if (game == null) {
                 errors += "$where: unknown game '${file.game}'"
@@ -30,7 +31,6 @@ object Validator {
             }
             if (file.series !in game.series) errors += "$where: ${game.name} has no series '${file.series}' (add it to games.yaml)"
 
-            val seen = mutableMapOf<Setup, Int>()
             file.setups.forEachIndexed { i, s ->
                 val at = "$where #${i + 1} (${s.author} @ ${s.track})"
                 if (s.track !in data.tracksById) errors += "$at: unknown track '${s.track}'"
@@ -40,7 +40,7 @@ object Validator {
                     errors += "$at: ${game.name} has no ${it.label} setting"
                 }
                 errors += rangeErrors(s).map { "$at: $it" }
-                seen.put(s.valuesKey(), i + 1)?.let { first -> errors += "$at: duplicate of #$first" }
+                seen.put(s.valuesKey(), at)?.let { first -> errors += "$at: duplicate of $first" }
             }
         }
         return errors

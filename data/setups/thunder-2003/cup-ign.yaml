@@ -1,0 +1,483 @@
+# thunder-2003 / cup: imported from raw/thunder-2003-ign.txt
+game: "thunder-2003"
+series: "cup"
+source: "IGN"
+setups:
+- track: "atlanta"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 45
+  frontSprings: 39
+  rearSprings: 50
+  swayBar: "3/4 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.4
+    - 1.1
+    rearEnd: 3.45
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 75in; RS 45°
+    Suspension: FS 39%; RS 50%; SB 3/4in; W 0.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.40; 4th 1.10; RE 3.45
+- track: "bristol"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 70
+  frontSprings: 40
+  rearSprings: 60
+  swayBar: "1/2 in"
+  wedge: -1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.4
+    - 1.8
+    - 1.4
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 75in; RS 70°
+    Suspension: FS 40%; RS 60%; SB 1/2in; W -1.5
+    Gear Ratio: 1st 3.60; 2nd 2.40; 3rd 1.80; 4th 1.40; RE 3.55
+- track: "california"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 73.5
+  rearSpoiler: 50
+  frontSprings: 90
+  rearSprings: 90
+  swayBar: "1 in"
+  wedge: 0.5
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.35
+    - 1.0
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 73 1/2in; RS 50°
+    Suspension: FS 90%; RS 90%; SB 1in; W 0.5
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.00; RE 3.50
+- track: "charlotte"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 45
+  frontSprings: 39
+  rearSprings: 50
+  swayBar: "3/4 in"
+  wedge: -1.5
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.35
+    - 1.07
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 74in; RS 45°
+    Suspension: FS 39%; RS 50%; SB 3/4in; W -1.5
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.07; RE 3.50
+- track: "chicagoland"
+  author: "IGN"
+  tirePressure: 26
+  fenderFlare: 74.0
+  rearSpoiler: 53
+  frontSprings: 45
+  rearSprings: 50
+  swayBar: "1/2 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.4
+    - 1.05
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 26psi
+    Down Force: FF 74in; RS 53°
+    Suspension: FS 45%; RS 50%; SB 1/2in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.40; 4th 1.05; RE 3.55
+- track: "darlington"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 65
+  rearSprings: 65
+  swayBar: "3/4 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.55
+    - 1.13
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 75in; RS 65°
+    Suspension: FS 65%; RS 65%; SB 3/4in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.55; 4th 1.13; RE 3.55
+- track: "daytona"
+  author: "IGN"
+  tirePressure: 22
+  frontSprings: 63
+  rearSprings: 68
+  swayBar: "7/8 in"
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.5
+    - 1.05
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 22psi
+    Down Force: N/A
+    Suspension: FS 63%; RS 68%; SB 7/8in; W +1.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.50; 4th 1.05; RE 3.50
+- track: "dover"
+  author: "IGN"
+  tirePressure: 19
+  fenderFlare: 75.5
+  rearSpoiler: 60
+  frontSprings: 45
+  rearSprings: 55
+  swayBar: "1/2 in"
+  wedge: -2.5
+  gears:
+    ratios:
+    - 3.6
+    - 1.95
+    - 1.35
+    - 1.23
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 19psi
+    Down Force: FF 75 1/2in; RS 60°
+    Suspension: FS 45%; RS 55%; SB 1/2in; W -2.5
+    Gear Ratio: 1st 3.60; 2nd 1.95; 3rd 1.35; 4th 1.23; RE 3.50
+- track: "homestead"
+  author: "IGN"
+  tirePressure: 23
+  fenderFlare: 74.5
+  rearSpoiler: 60
+  frontSprings: 45
+  rearSprings: 55
+  swayBar: "1/2 in"
+  wedge: -1.5
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.4
+    - 1.08
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 23psi
+    Down Force: FF 74 1/2in; RS 60°
+    Suspension: FS 45%; RS 55%; SB 1/2in; W -1.5
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.40; 4th 1.08; RE 3.50
+- track: "indianapolis"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 74.0
+  rearSpoiler: 65
+  frontSprings: 75
+  rearSprings: 75
+  swayBar: "7/8 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.02
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 74in; RS 65°
+    Suspension: FS 75%; RS 75%; SB 7/8in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.02; RE 3.50
+- track: "infineon"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 75
+  frontSprings: 45
+  rearSprings: 55
+  swayBar: "5/8 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.9
+    - 1.85
+    - 1.23
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 75in; RS 75°
+    Suspension: FS 45%; RS 55%; SB 5/8in; W 0.0
+    Gear Ratio: 1st 3.60; 2nd 2.90; 3rd 1.85; 4th 1.23; RE 3.50
+- track: "kansas"
+  author: "IGN"
+  tirePressure: 17
+  fenderFlare: 74.0
+  rearSpoiler: 59
+  frontSprings: 90
+  rearSprings: 95
+  swayBar: "1 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.35
+    - 1.03
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 17psi
+    Down Force: FF 74in; RS 59°
+    Suspension: FS 90%; RS 95%; SB 1in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.03; RE 3.50
+- track: "las-vegas"
+  author: "IGN"
+  tirePressure: 19
+  fenderFlare: 74.0
+  rearSpoiler: 69
+  frontSprings: 57
+  rearSprings: 57
+  swayBar: "3/8 in"
+  wedge: -2.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.35
+    - 1.09
+    rearEnd: 3.65
+  raw: |-
+    Tire Pressure: 19psi
+    Down Force: FF 74in; RS 69°
+    Suspension: FS 57%; RS 57%; SB 3/8in; W -2.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.09; RE 3.65
+- track: "martinsville"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 45
+  rearSprings: 55
+  swayBar: "5/8 in"
+  wedge: -4.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.4
+    - 1.9
+    - 1.55
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 75in; RS 65°
+    Suspension: FS 45%; RS 55%; SB 5/8in; W -4.0
+    Gear Ratio: 1st 3.60; 2nd 2.40; 3rd 1.90; 4th 1.55; RE 3.50
+- track: "michigan"
+  author: "IGN"
+  tirePressure: 22
+  fenderFlare: 75.0
+  rearSpoiler: 65
+  frontSprings: 53
+  rearSprings: 55
+  swayBar: "3/4 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.25
+    - 1.03
+    rearEnd: 2.95
+  raw: |-
+    Tire Pressure: 22psi
+    Down Force: FF 75in; RS 65°
+    Suspension: FS 53%; RS 55%; SB 3/4in; W 0.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.25; 4th 1.03; RE 2.95
+- track: "new-hampshire"
+  author: "IGN"
+  tirePressure: 23
+  fenderFlare: 74.5
+  rearSpoiler: 70
+  frontSprings: 45
+  rearSprings: 45
+  swayBar: "3/8 in"
+  wedge: -1.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.7
+    - 1.27
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 23psi
+    Down Force: FF 74 1/2in; RS 70°
+    Suspension: FS 45%; RS 45%; SB 3/8in; W -1.5
+    Gear Ratio: 1st 3.60; 2nd 2.30; 3rd 1.70; 4th 1.27; RE 3.55
+- track: "rockingham"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 75.0
+  rearSpoiler: 70
+  frontSprings: 48
+  rearSprings: 59
+  swayBar: "1/4 in"
+  wedge: -3.5
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.1
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 75in; RS 70°
+    Suspension: FS 48%; RS 59%; SB 1/4in; W -3.5
+    Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.10; RE 3.55
+- track: "phoenix"
+  author: "IGN"
+  tirePressure: 22
+  fenderFlare: 74.5
+  rearSpoiler: 60
+  frontSprings: 45
+  rearSprings: 55
+  swayBar: "1/2 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.13
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 22psi
+    Down Force: FF 74 1/2in; RS 60°
+    Suspension: FS 45%; RS 55%; SB 1/2in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.13; RE 3.50
+- track: "pocono"
+  author: "IGN"
+  tirePressure: 17
+  fenderFlare: 74.5
+  rearSpoiler: 45
+  frontSprings: 38
+  rearSprings: 48
+  swayBar: "3/4 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.1
+    - 1.45
+    - 1.04
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 17psi
+    Down Force: FF 74 1/2in; RS 45°
+    Suspension: FS 38%; RS 48%; SB 3/4in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.04; RE 3.50
+- track: "richmond"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 74.5
+  rearSpoiler: 70
+  frontSprings: 60
+  rearSprings: 80
+  swayBar: "3/4 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.3
+    - 1.7
+    - 1.21
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 74 1/2in; RS 70°
+    Suspension: FS 60%; RS 80%; SB 3/4in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 2.30; 3rd 1.70; 4th 1.21; RE 3.50
+- track: "talladega"
+  author: "IGN"
+  tirePressure: 30
+  frontSprings: 63
+  rearSprings: 68
+  swayBar: "7/8 in"
+  wedge: 1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.9
+    - 1.5
+    - 1.05
+    rearEnd: 3.5
+  raw: |-
+    Tire Pressure: 30psi
+    Down Force: N/A
+    Suspension: FS 63%; RS 68%; SB 7/8in; W 1.0
+    Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.50; 4th 1.05; RE 3.50
+- track: "texas"
+  author: "IGN"
+  tirePressure: 15
+  fenderFlare: 74.5
+  rearSpoiler: 60
+  frontSprings: 50
+  rearSprings: 50
+  swayBar: "7/8 in"
+  wedge: -1.0
+  gears:
+    ratios:
+    - 3.6
+    - 1.8
+    - 1.15
+    - 1.04
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 74 1/2in; RS 60°
+    Suspension: FS 50%; RS 50%; SB 7/8in; W -1.0
+    Gear Ratio: 1st 3.60; 2nd 1.80; 3rd 1.15; 4th 1.04; RE 3.55
+- track: "watkins-glen"
+  author: "IGN"
+  tirePressure: 15
+  notes: "The source lists fender flare 28 in and rear spoiler 38°, which are outside the game's ranges (73–76 in, 45–75°), so both are left blank."
+  frontSprings: 30
+  rearSprings: 34
+  swayBar: "1/2 in"
+  wedge: 0.0
+  gears:
+    ratios:
+    - 3.6
+    - 2.9
+    - 1.85
+    - 1.23
+    rearEnd: 3.55
+  raw: |-
+    Tire Pressure: 15psi
+    Down Force: FF 28in; RS 38°
+    Suspension: FS 30%; RS 34%; SB 1/2in; W 0.0
+    Gear Ratio: 1st 3.60; 2nd 2.90; 3rd 1.85; 4th 1.23; RE 3.55

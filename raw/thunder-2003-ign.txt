@@ -1,0 +1,138 @@
+Daytona - Daytona 500/Pepsi 400
+
+Tire Pressure: 22psi
+Down Force: N/A
+Suspension: FS 63%; RS 68%; SB 7/8in; W +1.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.50; 4th 1.05; RE 3.50
+	North Carolina - Subway 400/Pop Secret Microwave Popcorn 400
+
+Tire Pressure: 15psi
+Down Force: FF 75in; RS 70°
+Suspension: FS 48%; RS 59%; SB 1/4in; W -3.5
+Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.10; RE 3.55
+Las Vegas - UAW-DaimlerChrysler 400
+
+Tire Pressure: 19psi
+Down Force: FF 74in; RS 69°
+Suspension: FS 57%; RS 57%; SB 3/8in; W -2.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.09; RE 3.65
+	Atlanta - MBNA America 500/NAPA 500
+
+Tire Pressure: 15psi
+Down Force: FF 75in; RS 45°
+Suspension: FS 39%; RS 50%; SB 3/4in; W 0.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.40; 4th 1.10; RE 3.45
+Darlington - Carolina Dodge Dealers 400/Mt. Dew Southern 500
+
+Tire Pressure: 15psi
+Down Force: FF 75in; RS 65°
+Suspension: FS 65%; RS 65%; SB 3/4in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.55; 4th 1.13; RE 3.55
+	Bristol - Food City 500/Sharpie 500
+
+Tire Pressure: 15psi
+Down Force: FF 75in; RS 70°
+Suspension: FS 40%; RS 60%; SB 1/2in; W -1.5
+Gear Ratio: 1st 3.60; 2nd 2.40; 3rd 1.80; 4th 1.40; RE 3.55
+Texas - Samsung/RadioShack 500
+
+Tire Pressure: 15psi
+Down Force: FF 74 1/2in; RS 60°
+Suspension: FS 50%; RS 50%; SB 7/8in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 1.80; 3rd 1.15; 4th 1.04; RE 3.55
+	Martinsville - Virginia 500/Old Dominion 500
+
+Tire Pressure: 15psi
+Down Force: FF 75in; RS 65°
+Suspension: FS 45%; RS 55%; SB 5/8in; W -4.0
+Gear Ratio: 1st 3.60; 2nd 2.40; 3rd 1.90; 4th 1.55; RE 3.50
+Talladega - Aaron's 499/EA Sports 500
+
+Tire Pressure: 30psi
+Down Force: N/A
+Suspension: FS 63%; RS 68%; SB 7/8in; W 1.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.50; 4th 1.05; RE 3.50
+	California - Napa Auto Parts 500
+
+Tire Pressure: 15psi
+Down Force: FF 73 1/2in; RS 50°
+Suspension: FS 90%; RS 90%; SB 1in; W 0.5
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.00; RE 3.50
+Richmond - Pontiac Excitement 400/Chevrolet Monte Carlo 400
+
+Tire Pressure: 15psi
+Down Force: FF 74 1/2in; RS 70°
+Suspension: FS 60%; RS 80%; SB 3/4in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 2.30; 3rd 1.70; 4th 1.21; RE 3.50
+	Lowe's - Coca-Cola Racing Family 600/UAW-GM Quality 500
+
+Tire Pressure: 15psi
+Down Force: FF 74in; RS 45°
+Suspension: FS 39%; RS 50%; SB 3/4in; W -1.5
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.07; RE 3.50
+Dover - MBNA Platinum 400/ MBNA America 400
+
+Tire Pressure: 19psi
+Down Force: FF 75 1/2in; RS 60°
+Suspension: FS 45%; RS 55%; SB 1/2in; W -2.5
+Gear Ratio: 1st 3.60; 2nd 1.95; 3rd 1.35; 4th 1.23; RE 3.50
+	Pocono - Pocono 500/Pennsylvania 500
+
+Tire Pressure: 17psi
+Down Force: FF 74 1/2in; RS 45°
+Suspension: FS 38%; RS 48%; SB 3/4in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.04; RE 3.50
+Michigan - Sirius Satellite Radio 400/Pepsi 400
+
+Tire Pressure: 22psi
+Down Force: FF 75in; RS 65°
+Suspension: FS 53%; RS 55%; SB 3/4in; W 0.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.25; 4th 1.03; RE 2.95
+	Infineon - Dodge/Save Mart 350
+
+Tire Pressure: 15psi
+Down Force: FF 75in; RS 75°
+Suspension: FS 45%; RS 55%; SB 5/8in; W 0.0
+Gear Ratio: 1st 3.60; 2nd 2.90; 3rd 1.85; 4th 1.23; RE 3.50
+Chicagoland - Tropicana 400
+
+Tire Pressure: 26psi
+Down Force: FF 74in; RS 53°
+Suspension: FS 45%; RS 50%; SB 1/2in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.40; 4th 1.05; RE 3.55
+	New Hampshire - New England 300/New Hampshire 300
+
+Tire Pressure: 23psi
+Down Force: FF 74 1/2in; RS 70°
+Suspension: FS 45%; RS 45%; SB 3/8in; W -1.5
+Gear Ratio: 1st 3.60; 2nd 2.30; 3rd 1.70; 4th 1.27; RE 3.55
+Indianapolis - Brickyard 400
+
+Tire Pressure: 15psi
+Down Force: FF 74in; RS 65°
+Suspension: FS 75%; RS 75%; SB 7/8in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.02; RE 3.50
+	Watkins Glen - Sirius Satellite Radio @ The Glen
+
+Tire Pressure: 15psi
+Down Force: FF 28in; RS 38°
+Suspension: FS 30%; RS 34%; SB 1/2in; W 0.0
+Gear Ratio: 1st 3.60; 2nd 2.90; 3rd 1.85; 4th 1.23; RE 3.55
+Kansas - Protection One 400
+
+Tire Pressure: 17psi
+Down Force: FF 74in; RS 59°
+Suspension: FS 90%; RS 95%; SB 1in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.35; 4th 1.03; RE 3.50
+	Phoenix - Checker Auto Parts 500
+
+Tire Pressure: 22psi
+Down Force: FF 74 1/2in; RS 60°
+Suspension: FS 45%; RS 55%; SB 1/2in; W -1.0
+Gear Ratio: 1st 3.60; 2nd 2.10; 3rd 1.45; 4th 1.13; RE 3.50
+Homestead- Miami - Homestead 400
+
+Tire Pressure: 23psi
+Down Force: FF 74 1/2in; RS 60°
+Suspension: FS 45%; RS 55%; SB 1/2in; W -1.5
+Gear Ratio: 1st 3.60; 2nd 1.90; 3rd 1.40; 4th 1.08; RE 3.50

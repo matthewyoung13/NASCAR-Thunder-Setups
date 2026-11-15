@@ -19,33 +19,50 @@ class ValidatorTest {
 
     @Test
     fun `good data has no errors`() {
-        assertEquals(emptyList(), Validator.validate(data(SetupFile("t3", "cup", listOf(setup().copy(swayBar = "3/4 in"))))))
+        assertEquals(emptyList(), Validator.validate(data(SetupFile("t3", "cup", setups = listOf(setup().copy(swayBar = "3/4 in"))))))
     }
 
     @Test
     fun `unknown track`() {
-        val errors = Validator.validate(data(SetupFile("t4", "cup", listOf(setup(track = "nowhere")))))
+        val errors = Validator.validate(data(SetupFile("t4", "cup", setups = listOf(setup(track = "nowhere")))))
         assertTrue(errors.single().contains("unknown track 'nowhere'"), errors.toString())
     }
 
     @Test
     fun `field the game does not have`() {
-        val errors = Validator.validate(data(SetupFile("t4", "cup", listOf(setup().copy(swayBar = "1 in")))))
+        val errors = Validator.validate(data(SetupFile("t4", "cup", setups = listOf(setup().copy(swayBar = "1 in")))))
         assertTrue(errors.single().contains("has no Sway Bar setting"), errors.toString())
     }
 
     @Test
     fun `values out of range`() {
         val bad = setup().copy(tirePressure = 45, gears = Gears(preset = 12, ratios = listOf(3.6, 2.1)))
-        val errors = Validator.validate(data(SetupFile("t4", "cup", listOf(bad))))
+        val errors = Validator.validate(data(SetupFile("t4", "cup", setups = listOf(bad))))
         assertEquals(3, errors.size, errors.toString())
     }
 
     @Test
     fun `duplicates and unknown series`() {
-        val errors = Validator.validate(data(SetupFile("t4", "busch", listOf(setup(), setup().copy(raw = "x")))))
+        val errors = Validator.validate(data(SetupFile("t4", "busch", setups = listOf(setup(), setup().copy(raw = "x")))))
         assertTrue(errors.any { "no series 'busch'" in it }, errors.toString())
-        assertTrue(errors.any { "duplicate of #1" in it }, errors.toString())
+        assertTrue(errors.any { "duplicate of t4/busch #1" in it }, errors.toString())
+    }
+
+    @Test
+    fun `several files per game and series, duplicates caught across them`() {
+        val main = SetupFile("t3", "cup", setups = listOf(setup()))
+        val other = SetupFile("t3", "cup", source = "IGN", setups = listOf(setup(author = "B")))
+        assertEquals(emptyList(), Validator.validate(data(main, other)))
+
+        val copy = SetupFile("t3", "cup", source = "IGN", setups = listOf(setup()))
+        val errors = Validator.validate(data(main, copy))
+        assertTrue(errors.single().contains("t3/cup (IGN) #1 (A @ bristol): duplicate of t3/cup #1"), errors.toString())
+    }
+
+    @Test
+    fun `file source fills in setups without their own`() {
+        val file = SetupFile("t3", "cup", source = "IGN", setups = listOf(setup(), setup(author = "B").copy(source = "Forum")))
+        assertEquals(listOf("IGN", "Forum"), file.resolvedSetups().map { it.source })
     }
 
     /** The real dataset in data/ must always pass. */
